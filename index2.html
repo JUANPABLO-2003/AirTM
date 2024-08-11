@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="air.ico" type="image/x-icon"> <!-- Asegúrate de que el nombre y la ruta sean correctos -->
     <title>Página de Registro</title>
-    <link rel="icon" href="air.ico" type="image/x-icon"> <!-- Agrega esta línea -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
@@ -19,6 +19,10 @@
             justify-content: center;
             height: 100vh;
             background-color: #f0f0f0;
+        }
+
+        .logo {
+            margin-bottom: 20px;
         }
 
         h1 {
@@ -50,6 +54,9 @@
     </style>
 </head>
 <body>
+    <div class="logo">
+        <img src="air.png" alt="AirTM" width="150">
+    </div>
     <h1>¡Bienvenido a la página de registro!</h1>
     <p>Aquí podrás completar el proceso de registro en AirTM.</p>
     <button class="cta-button" onclick="window.location.href='https://app.airtm.com/ivt/juan19s4udga'">Ir al registro de AirTM</button>
